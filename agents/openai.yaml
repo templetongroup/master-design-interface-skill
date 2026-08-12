@@ -1,0 +1,4 @@
+interface:
+  display_name: "Master Design"
+  short_description: "Design, build, audit, and ship exceptional interfaces"
+  default_prompt: "Use $master-design to review and improve this product as a coherent, production-ready interface."
