@@ -9,6 +9,7 @@ It treats visual quality and behavioral quality as one discipline: understand th
 - Product framing and UX flow design
 - Visual direction and reference-based reconstruction
 - Design systems, tokens, components, typography, color, and motion
+- Constrained mechanical scales and symptom-to-root-cause UI diagnosis
 - Web, mobile, and native interface implementation guidance
 - Accessibility, keyboard, resizing, theme, and state verification
 - Full-product reviews with evidence-backed findings and verdicts
@@ -42,12 +43,13 @@ Master Design selects one of six operating modes—`frame`, `direct`, `build`, `
 - `references/` — product, style, system, review, evidence, and provenance guidance
 - `scripts/scan-interface-risks.sh` — optional fast candidate scan for source repositories
 - `agents/openai.yaml` — display metadata for supported agent environments
+- `THIRD_PARTY_NOTICES.md` — pinned upstream attribution and license notices
 
 The scan script requires [ripgrep](https://github.com/BurntSushi/ripgrep). Its output is only a lead list; findings still require source, rendered, interaction, or installed/deployed evidence.
 
 ## Provenance
 
-Master Design is a synthesis of a broader interface-design skill library. The source categories and conflict decisions are documented in [`references/source-map.md`](references/source-map.md). It does not bundle or replace those source skills.
+Master Design is a synthesis of a broader interface-design skill library. The source categories, pinned upstream provenance, licenses, and conflict decisions are documented in [`references/source-map.md`](references/source-map.md). It selectively adapts durable principles rather than bundling or replacing the source skills.
 
 ## Contributing
 

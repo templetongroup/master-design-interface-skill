@@ -39,6 +39,7 @@ This file records how the installed design library was synthesized. The master s
 - `stitch-design-taste`, `ui-skills`, `ui-ux-pro-max`: semantic tokens, interface constraints, and component consistency.
 - `brandkit`: approved brand assets and roles as design-system inputs.
 - `emil-design-eng`: implementation-level interaction and visual detail.
+- [`s0xDk/refactoring-ui-skill`](https://github.com/s0xDk/refactoring-ui-skill) at `48872143abb0a8feb6d9bf58e222afbd800210b0` (MIT): constrained fallback scales, feature-first and grayscale sequencing, hierarchy through weight and color, palette-ramp mechanics, light/depth cues, and symptom-to-mechanical-fix diagnosis. Selectively adapted in `mechanical-craft-scales.md`; the raw skill and book text are not bundled. See [`THIRD_PARTY_NOTICES.md`](../THIRD_PARTY_NOTICES.md).
 
 ## Platform, reconstruction, and production
 
@@ -53,6 +54,8 @@ This file records how the installed design library was synthesized. The master s
 - Prefer platform-native behavior over a custom visual replica.
 - Prefer an accepted target or brand system over automatic diversification.
 - Prefer one coherent project system over forcing every screen to look different.
+- Prefer a sound existing token system over fallback numeric scales; use the constrained defaults only to replace arbitrary or missing decisions.
+- Allow HSL, OKLCH, and intentionally contextual relative units where they improve the project; preserve the upstream system goal without turning syntax advice into platform-independent dogma.
 - Prefer accessibility and truthful product state over visual minimalism.
 - Prefer measured rendered evidence over taste claims.
 - Prefer shared-root fixes over one-screen patches.

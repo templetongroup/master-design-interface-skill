@@ -1,6 +1,6 @@
 ---
 name: master-design
-description: Design, redesign, build, audit, polish, and production-verify exceptional interfaces across web, mobile, and native apps. Use for product framing, visual direction, UX flows, design systems, implementation, accessibility, responsive and window behavior, AI interactions, screenshot or reference reconstruction, whole-product reviews, pre-launch polish, and installed or deployed interface QA. Triggers on master design, design this, redesign this app, make this production ready, review every screen, polish the UI, improve the UX, match this reference, design system, visual audit, interface audit, accessibility review, responsive review, pre-launch design check, and ship-quality UI.
+description: Design, redesign, build, audit, polish, and production-verify exceptional interfaces across web, mobile, and native apps. Use for product framing, visual direction, UX flows, design systems, implementation, accessibility, responsive and window behavior, AI interactions, screenshot or reference reconstruction, whole-product reviews, pre-launch polish, and installed or deployed interface QA. Triggers on master design, design this, redesign this app, make this production ready, review every screen, polish the UI, make this look better, looks off, looks amateur, feels cluttered or unfinished, improve the UX, match this reference, design system, visual audit, interface audit, accessibility review, responsive review, pre-launch design check, and ship-quality UI.
 ---
 
 # Master Design
@@ -84,7 +84,11 @@ Never solve a repeated defect in one screen when its cause is a token or shared 
 
 Read [system-and-craft.md](references/system-and-craft.md) for component geometry, layout, typography, color, surfaces, icons, motion, and accessibility details.
 
+When the project has no coherent scales—or repeated values are visibly arbitrary—read [mechanical-craft-scales.md](references/mechanical-craft-scales.md). It provides constrained fallback scales, feature-first and grayscale sequencing, hierarchy mechanics, color-ramp construction, depth rules, and a symptom-to-root-cause repair order. Treat those values as defaults to normalize once, not as a mandate to replace a sound existing system.
+
 ## 4. Implement in task order
+
+For a new or mechanically weak interface, begin with one real feature and the smallest useful state. Establish hierarchy in grayscale at a constrained width before adding accent color, imagery, texture, or shadow. Expand only after the narrow composition works.
 
 1. Build semantic structure and state ownership.
 2. Establish layout, reflow, window sizing, and scroll behavior.
@@ -151,6 +155,7 @@ Before calling work complete, check all of these:
 - no critical action below the fold without a visible continuation cue;
 - no mismatched peer-button geometry or label baselines;
 - no one-off spacing, radius, font, color, or icon that should use a shared token;
+- no repeated off-scale value, runtime-generated shade, or arbitrary radius/elevation drift without a documented reason;
 - no tiny or low-contrast secondary text masquerading as polish;
 - no active state shown only by color;
 - no missing hover, focus, active, selected, disabled, loading, empty, error, or success state;

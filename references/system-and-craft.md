@@ -14,6 +14,8 @@ Define tokens by role rather than appearance:
 
 Use one tuned neutral family. Pure black and white are acceptable only when the brand or contrast requirement calls for them; otherwise tune temperature deliberately. Verify every foreground/background pair as rendered, including disabled and selected states when they must remain readable.
 
+If the current project has no coherent scale—or repeated values are arbitrary—use [mechanical-craft-scales.md](mechanical-craft-scales.md) to normalize constrained spacing, type, opacity, radius, elevation, and color-ramp defaults. Existing accessible project tokens remain authoritative when they already form a deliberate system.
+
 ## Layout and adaptation
 
 - Group primarily with space, then surface, then separators.
