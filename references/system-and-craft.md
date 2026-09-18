@@ -2,6 +2,8 @@
 
 Use this reference when creating tokens, components, responsive behavior, native windows, or high-fidelity polish.
 
+For focused design-engineering details and interactive demonstrations, consult [Gustavo Fior's *Craft*](https://craft.gustavofior.com/) as a supporting reference. Use only concepts with published pages, verify each technique in the target platform and product, and treat entries marked “Soon” as unavailable rather than inferring guidance from their titles. Extract the durable principle and implement it in the project's existing stack; do not let a reference's exact values or demo code override accessibility, performance, platform behavior, or a sound established system.
+
 ## Semantic system
 
 Define tokens by role rather than appearance:
